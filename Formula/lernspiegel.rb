@@ -1,8 +1,8 @@
 class Lernspiegel < Formula
   desc "Mirror Uni Münster Learnweb (Moodle) courses to local files (CLI + MCP)"
   homepage "https://github.com/theitger/lernspiegel"
-  url "https://github.com/theitger/lernspiegel/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "6f9f83c4e87ac5bab4070325a54caac664c3ed7b5cadeb0ab35bc0da3b1f6944"
+  url "https://github.com/theitger/lernspiegel/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "7b2f3398c3f3de4b4270d1bc0a6dd625ab75ae619dcbdab6cd50ad4ea66a6e4e"
   license "MIT"
 
   depends_on "node"
