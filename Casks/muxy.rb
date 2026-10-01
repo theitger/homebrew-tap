@@ -1,13 +1,13 @@
 cask "muxy" do
-  version "0.1.0"
-  sha256 "a0aa6bde5e42f692148784f2493be0b53a46a78e99087b66088cd8aa49a12a89"
+  version "0.2.0"
+  sha256 "52bfaadf62955151859b1de9e4cb9036b34c8a1cc841bc3d176694dd9514d97d"
 
   url "https://github.com/theitger/muxy/releases/download/v#{version}/Muxy-#{version}.zip"
   name "Muxy"
   desc "Terminal workspace for parallel coding agents with native Ghostty rendering"
   homepage "https://github.com/theitger/muxy"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Muxy.app"
 
