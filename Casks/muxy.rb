@@ -1,6 +1,6 @@
 cask "muxy" do
-  version "0.2.0"
-  sha256 "52bfaadf62955151859b1de9e4cb9036b34c8a1cc841bc3d176694dd9514d97d"
+  version "0.2.1"
+  sha256 "fca1921d9644c82c11589b27ed858ff40db41f2dea5f8d83983b293abf1c63fa"
 
   url "https://github.com/theitger/muxy/releases/download/v#{version}/Muxy-#{version}.zip"
   name "Muxy"
