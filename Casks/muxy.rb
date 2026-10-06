@@ -11,9 +11,10 @@ cask "muxy" do
 
   app "Muxy.app"
 
-  caveats <<~EOS
-    Muxy is ad-hoc signed (no Apple Developer certificate). macOS will
-    block the first launch unless you clear the quarantine flag:
-      xattr -dr com.apple.quarantine /Applications/Muxy.app
-  EOS
+  # Ad-hoc signed (no Apple Developer certificate): without this Gatekeeper
+  # blocks the first launch. The download is pinned by sha256 above.
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Muxy.app"]
+  end
 end

@@ -37,5 +37,4 @@ orphaned agent-browser sessions, idle Docker stacks, forgotten apps.
 
 ```sh
 brew install --cask theitger/tap/agent-reaper
-xattr -dr com.apple.quarantine /Applications/Reaper.app
 ```
