@@ -1,6 +1,6 @@
 cask "agent-reaper" do
-  version "0.1.0"
-  sha256 "56e523a9eb76d3611049028b816c481757fc4d6ca1458290481597a9fbe841af"
+  version "0.2.0"
+  sha256 "6c7084edd98a31f7320b06cc5b901297fd5bb29e82939635b3b2a78e32db10bd"
 
   url "https://github.com/theitger/agent-reaper/releases/download/v#{version}/Reaper-#{version}.zip"
   name "Reaper"
