@@ -38,3 +38,12 @@ orphaned agent-browser sessions, idle Docker stacks, forgotten apps.
 ```sh
 brew install --cask theitger/tap/agent-reaper
 ```
+
+## Crema
+
+Menu bar app that [keeps your Mac awake](https://github.com/theitger/crema), one shot at a time.
+Pick a shot from Ristretto (15 min) to Bottomless and the portafilter starts to pour.
+
+```sh
+brew install --cask theitger/tap/crema
+```
