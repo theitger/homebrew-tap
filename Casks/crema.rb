@@ -1,6 +1,6 @@
 cask "crema" do
-  version "1.0.0"
-  sha256 "52a26e21b7b00c55e5174972709f44db832edfd2e85887612e568451e6c4d1f4"
+  version "1.0.1"
+  sha256 "9b838a8d205232c0cf9e3644dfe37bb8606100e361d63de69cd79465394b450a"
 
   url "https://github.com/theitger/crema/releases/download/v#{version}/Crema-#{version}.zip"
   name "Crema"
