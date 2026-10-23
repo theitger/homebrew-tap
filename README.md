@@ -47,3 +47,13 @@ Pick a shot from Ristretto (15 min) to Bottomless and the portafilter starts to 
 ```sh
 brew install --cask theitger/tap/crema
 ```
+
+## Glut
+
+Native macOS [temperature monitoring and fan control](https://github.com/theitger/glut), free and open source.
+
+```sh
+brew install --cask theitger/tap/glut
+```
+
+Requires macOS 14 or later. The early release is ad-hoc signed; see the project README for first-launch instructions and hardware support limits.
