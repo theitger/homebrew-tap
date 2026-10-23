@@ -1,6 +1,6 @@
 cask "glut" do
-  version "0.1.1"
-  sha256 "f0ff434aec6617d10373f5ce60ad0df40cf75c5e4fcd60d984ad150dc456ce4e"
+  version "0.2.0"
+  sha256 "9d45537e0f76ce3ac1d440083c633cacd76f53436ccc56dec1020dc6d6c23bc1"
 
   url "https://github.com/theitger/glut/releases/download/v#{version}/Glut-#{version}.zip"
   name "Glut"
